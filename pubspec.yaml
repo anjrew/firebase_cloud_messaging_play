@@ -1,0 +1,36 @@
+name: firebase_cloud_messaging_play
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^0.4.0+9
+  firebase_messaging: ^5.1.6
+
+  print_play:
+    git:
+      url: git://github.com/earyzhe/print_play.git
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/launcher_icon.jpeg"
+
+flutter:
+  uses-material-design: true
+
+
+
+
+
